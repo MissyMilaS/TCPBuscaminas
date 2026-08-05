@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3172A62-3B3D-7CD4-41B2-9B3A3C707AA0" name="VACCINE_SHOT">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:30:37 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="doses_id" id="3608D785-BFE8-F5F6-6A9D-62153FA5F436">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:32:50 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB1A3332-4021-D5A5-892F-CD86F04267A5" name="VACCINE_SHOT PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:33:12 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3608D785-BFE8-F5F6-6A9D-62153FA5F436</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

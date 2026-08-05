@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F215D773-9173-FE82-72DA-8E598BAACA51" name="VACCINE">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:14:29 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vaccine_name" id="9EBD8C29-6610-9FA1-D2F6-819761B8E381">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:15:13 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="illness" id="60C68E63-24B8-E72C-A516-2E6EF089A643">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:16:36 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vaccine_id" id="3CECF2EA-849D-FEA8-50C5-68AC9ACCADF7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:17:38 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="laboratory" id="9F44F839-9069-60A5-DB41-CA49D072D844">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:18:13 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="doses" id="1DF4DD55-3129-FD9F-8013-5ADF8BD96693">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:19:23 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BFD409AC-832E-5F54-E667-64CCAF4DAF9C" name="VACCINE PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:15:46 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3CECF2EA-849D-FEA8-50C5-68AC9ACCADF7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

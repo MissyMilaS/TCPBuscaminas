@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0682D341-DAC3-CB3A-9558-368DF1C8259B" name="PATIENT">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:20:02 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="75109C6B-9C0B-F441-005A-7E57D5E1BF24">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:20:32 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="35577E27-7A41-EBE4-BBB2-0E52203FD680">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:20:46 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eps" id="2FA7A4F4-8188-8E72-D17A-34065DDB74F1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:21:04 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="celphone_number" id="4DB02718-339D-2E8F-F37D-EABC698A486F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:21:24 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthday" id="87157F12-8E1A-4EA5-9FCD-1D64797C63E9">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:21:47 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="56228E40-2845-1CC4-1D0E-610F0E55A360">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:22:17 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="880FA3C2-9F2A-B8B3-A2BD-AB942459AA28">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:22:41 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="491FA477-CE7D-FA98-9BAB-A18106F5962D" name="PATIENT PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:20:40 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75109C6B-9C0B-F441-005A-7E57D5E1BF24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="976B361C-FC96-DC85-3531-80E755B7A6B4" name="VACCINE_LOT">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:23:05 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lote_id" id="282C7E68-EBC1-5A34-DF2F-EB1E61227C63">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:23:27 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vaccine" id="711B983E-A04C-13C3-A758-01EC0F64B252">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:24:04 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opening:date" id="CF6628D9-53D9-3B1F-70B2-D8E29855ACDA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:24:39 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="expiration_date" id="2555DD4E-EF1F-29A3-0254-F3704EBE24A7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:25:16 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="B64A90E3-01B2-AAFD-A641-6CA07952704E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:25:36 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="F29B83F5-E871-9F24-7481-1EA405E762F5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:25:51 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE89F39F-9E49-D817-6DEC-1C79D1773924" name="VACCINE_LOT PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2026-08-05 05:23:43 UTC</createdTime>
+<ownerDesignName>taller1</ownerDesignName>
+<engineerTo>
+<item key="69A7454F-8EB9-9012-4F97-3FE0D0F096D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>282C7E68-EBC1-5A34-DF2F-EB1E61227C63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
