@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="client.SensorClientTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-01T15:48:24.135Z" hostname="MISSYMILA" time="0.432">
-  <properties/>
-  <testcase name="CL-02: El cliente consulta estado con comando STATUS" classname="client.SensorClientTest" time="0.016"/>
-  <testcase name="CL-03: El cliente lanza SocketTimeoutException cuando el servidor no responde" classname="client.SensorClientTest" time="0.411"/>
-  <testcase name="CL-01: El cliente envía telemetría formateada y recibe respuesta" classname="client.SensorClientTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
